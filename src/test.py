@@ -110,4 +110,4 @@ if __name__ == "__main__":
         delete_huanhangfu('dealTxt\\'+str(i)+'.txt',i)#对txt文件的换行符进行删除，防止词语因换行被拆分
         word_by_myself()#添加自定义词语
         print(f'----------result {i}----------')
-        cut_and_count('outPutTxt\\'+str(i)+'.txt')#分词并进行词频统计，传入文件路径
+        cut_and_count('outPutTxt\\'+str(i)+'.txt123')#分词并进行词频统计，传入文件路径
